@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # data_analyst_portfolio
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# My-portfolio
+>>>>>>> 024395203ec5d783b112c2d40bcc4e758e24a092
