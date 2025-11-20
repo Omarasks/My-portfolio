@@ -42,7 +42,7 @@ sectionOne() {
             style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
           SizedBox(height: 4),
-          Text("Business Data Analyst"),
+          Text("Data Analytics Engineer || Business Intelligence "),
           SizedBox(height: 4),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -60,7 +60,7 @@ sectionOne() {
                 onPressed: () {},
                 icon: FaIcon(FontAwesomeIcons.github),
               ),
-              SizedBox(width: 13),
+              SizedBox(width: 5),
               IconButton(
                 onPressed: () {},
                 icon: FaIcon(FontAwesomeIcons.linkedin),
@@ -157,7 +157,7 @@ sectionOne() {
 
                 child: Center(
                   child: Text(
-                    "Excel",
+                    "dbt",
                     style: TextStyle(color: Colors.white, fontSize: 12),
                     textAlign: TextAlign.center,
                   ),
@@ -174,7 +174,7 @@ sectionOne() {
 
                 child: Center(
                   child: Text(
-                    "Fabric",
+                    "Airflow",
                     style: TextStyle(color: Colors.white, fontSize: 12),
                     textAlign: TextAlign.center,
                   ),
@@ -213,211 +213,6 @@ sectionTwo() {
           ],
         ),
         SizedBox(height: 8),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Column(
-              children: [
-                Container(
-                  padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
-                  width: 416,
-                  height: 200,
-                  decoration: BoxDecoration(
-                    color: heroColor,
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        "Programming Language",
-                        style: TextStyle(color: Colors.white, fontSize: 18),
-                      ),
-                      SizedBox(height: 55),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Column(
-                            children: [
-                              Image.asset("assets/images/sql.png"),
-                              const SizedBox(height: 8),
-                              Text(
-                                "SQL",
-                                style: TextStyle(color: Colors.white),
-                              ),
-                            ],
-                          ),
-                          Column(
-                            children: [
-                              Image.asset("assets/images/python.png"),
-                              const SizedBox(height: 8),
-                              Text(
-                                "Python",
-                                style: TextStyle(color: Colors.white),
-                              ),
-                            ],
-                          ),
-                          Column(
-                            children: [
-                              Image.asset("assets/images/colab.png"),
-                              const SizedBox(height: 4),
-                              Text(
-                                "Colab",
-                                style: TextStyle(color: Colors.white),
-                              ),
-                            ],
-                          ),
-                          Column(
-                            children: [
-                              Image.asset("assets/images/pandas.png"),
-                              const SizedBox(height: 8),
-                              Text(
-                                "Pandas",
-                                style: TextStyle(color: Colors.white),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
-                ),
-                const SizedBox(height: 8),
-                Container(
-                  padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
-                  width: 416,
-                  height: 200,
-                  decoration: BoxDecoration(
-                    color: heroColor,
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        "Data Analytic tools",
-                        style: TextStyle(color: Colors.white, fontSize: 18),
-                      ),
-                      Image.asset("assets/images/data-graph.png"),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Column(
-                            children: [
-                              Image.asset("assets/images/vscode.png"),
-                              const SizedBox(height: 4),
-                              Text(
-                                "Vscode",
-                                style: TextStyle(color: Colors.white),
-                              ),
-                            ],
-                          ),
-
-                          Column(
-                            children: [
-                              Image.asset("assets/images/powerbi.png"),
-                              const SizedBox(height: 4),
-                              Text(
-                                "PowerBI",
-                                style: TextStyle(color: Colors.white),
-                              ),
-                            ],
-                          ),
-
-                          Column(
-                            children: [
-                              Image.asset("assets/images/excel.png"),
-                              const SizedBox(height: 4),
-                              Text(
-                                "Excel",
-                                style: TextStyle(color: Colors.white),
-                              ),
-                            ],
-                          ),
-
-                          Column(
-                            children: [
-                              Image.asset("assets/images/powerpoint.png"),
-                              const SizedBox(height: 4),
-                              Text(
-                                "PowerPoint",
-                                style: TextStyle(color: Colors.white),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-            Column(
-              children: [
-                Container(
-                  padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
-                  width: 416,
-                  height: 408,
-                  decoration: BoxDecoration(
-                    color: heroColor,
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text(
-                        "Data Analytic Methods",
-                        style: TextStyle(color: Colors.white, fontSize: 18),
-                      ),
-                      Image.asset("assets/images/pie.png"),
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            "- Exploratory Data Analysis (EDA)",
-                            style: TextStyle(color: Colors.white),
-                            textAlign: TextAlign.start,
-                          ),
-                          Text(
-                            "- Segmentation / Clustering",
-                            style: TextStyle(color: Colors.white),
-                            textAlign: TextAlign.start,
-                          ),
-                          Text(
-                            "- Cohort Analysis",
-                            style: TextStyle(color: Colors.white),
-                            textAlign: TextAlign.start,
-                          ),
-                          Text(
-                            "- Linear Regression",
-                            style: TextStyle(color: Colors.white),
-                            textAlign: TextAlign.start,
-                          ),
-                          Text(
-                            "- Logistic Regression",
-                            style: TextStyle(color: Colors.white),
-                            textAlign: TextAlign.start,
-                          ),
-                          Text(
-                            "- Statistics",
-                            style: TextStyle(color: Colors.white),
-                            textAlign: TextAlign.left,
-                          ),
-                          Text(
-                            "- Xlookup & Vlookup",
-                            style: TextStyle(color: Colors.white),
-                            textAlign: TextAlign.left,
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-          ],
-        ),
       ],
     ),
   );
@@ -891,3 +686,215 @@ sectionFive() {
     ),
   );
 }
+
+
+
+
+
+/***
+ * Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Column(
+              children: [
+                Container(
+                  padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+                  width: 416,
+                  height: 200,
+                  decoration: BoxDecoration(
+                    color: heroColor,
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        "Programming Language",
+                        style: TextStyle(color: Colors.white, fontSize: 18),
+                      ),
+                      SizedBox(height: 55),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Column(
+                            children: [
+                              Image.asset("assets/images/sql.png"),
+                              const SizedBox(height: 8),
+                              Text(
+                                "SQL",
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              Image.asset("assets/images/python.png"),
+                              const SizedBox(height: 8),
+                              Text(
+                                "Python",
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              Image.asset("assets/images/colab.png"),
+                              const SizedBox(height: 4),
+                              Text(
+                                "Colab",
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              Image.asset("assets/images/pandas.png"),
+                              const SizedBox(height: 8),
+                              Text(
+                                "Pandas",
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: 8),
+                Container(
+                  padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+                  width: 416,
+                  height: 200,
+                  decoration: BoxDecoration(
+                    color: heroColor,
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        "Data Analytic tools",
+                        style: TextStyle(color: Colors.white, fontSize: 18),
+                      ),
+                      Image.asset("assets/images/data-graph.png"),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Column(
+                            children: [
+                              Image.asset("assets/images/vscode.png"),
+                              const SizedBox(height: 4),
+                              Text(
+                                "Vscode",
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            ],
+                          ),
+
+                          Column(
+                            children: [
+                              Image.asset("assets/images/powerbi.png"),
+                              const SizedBox(height: 4),
+                              Text(
+                                "PowerBI",
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            ],
+                          ),
+
+                          Column(
+                            children: [
+                              Image.asset("assets/images/excel.png"),
+                              const SizedBox(height: 4),
+                              Text(
+                                "Excel",
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            ],
+                          ),
+
+                          Column(
+                            children: [
+                              Image.asset("assets/images/powerpoint.png"),
+                              const SizedBox(height: 4),
+                              Text(
+                                "PowerPoint",
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+            Column(
+              children: [
+                Container(
+                  padding: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+                  width: 416,
+                  height: 408,
+                  decoration: BoxDecoration(
+                    color: heroColor,
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        "Data Analytic Methods",
+                        style: TextStyle(color: Colors.white, fontSize: 18),
+                      ),
+                      Image.asset("assets/images/pie.png"),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "- Exploratory Data Analysis (EDA)",
+                            style: TextStyle(color: Colors.white),
+                            textAlign: TextAlign.start,
+                          ),
+                          Text(
+                            "- Segmentation / Clustering",
+                            style: TextStyle(color: Colors.white),
+                            textAlign: TextAlign.start,
+                          ),
+                          Text(
+                            "- Cohort Analysis",
+                            style: TextStyle(color: Colors.white),
+                            textAlign: TextAlign.start,
+                          ),
+                          Text(
+                            "- Linear Regression",
+                            style: TextStyle(color: Colors.white),
+                            textAlign: TextAlign.start,
+                          ),
+                          Text(
+                            "- Logistic Regression",
+                            style: TextStyle(color: Colors.white),
+                            textAlign: TextAlign.start,
+                          ),
+                          Text(
+                            "- Statistics",
+                            style: TextStyle(color: Colors.white),
+                            textAlign: TextAlign.left,
+                          ),
+                          Text(
+                            "- Xlookup & Vlookup",
+                            style: TextStyle(color: Colors.white),
+                            textAlign: TextAlign.left,
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+ */
