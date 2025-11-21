@@ -37,7 +37,10 @@ dependencies:
   heroicons: ^0.11.0
   font_awesome_flutter: ^10.10.0 
   google_fonts: ^6.0.8 
-  auto_size_text: ^3.0.0
+  auto_size_text: ^3.0.0 
+  markdown_widget: ^2.3.2+8  
+  flutter_code_view: ^0.0.5
+ 
 
   
 

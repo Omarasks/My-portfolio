@@ -1,10 +1,11 @@
-import 'package:data_analyst_portfolio/desktop_home_page.dart';
-import 'package:data_analyst_portfolio/mobile_home_page.dart';
-import 'package:data_analyst_portfolio/responsive.dart';
-import 'package:data_analyst_portfolio/tablet_home_page.dart';
+//import 'package:data_analyst_portfolio/desktop_home_page.dart';
+//import 'package:data_analyst_portfolio/mobile_home_page.dart';
+//import 'package:data_analyst_portfolio/responsive.dart';
+//import 'package:data_analyst_portfolio/tablet_home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:data_analyst_portfolio/constants.dart';
+import 'package:data_analyst_portfolio/sections/desktop/pages/first_project.dart';
 
 void main() {
   runApp(MyApp());
@@ -35,11 +36,18 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: Responsive(
+      home: FirstProjectDesktop(),
+    );
+  }
+}
+
+
+
+/**
+ * 
+ * Responsive(
         mobile: Mobilehomepage(),
         tablet: Tablethomepage(),
         desktop: Desktophomepage(),
       ),
-    );
-  }
-}
+ */
